@@ -1,0 +1,45 @@
+body {
+    background-color: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 24px;
+    color:#333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 { font-size: 28px; }
+
+h2 { font-size: 18px; font-weight: 700; margin-top: 0; margin-bottom: 18px; }
+
+p { line-height: 1.6em; }
+
+a { color: #d21034; }
+a:hover { color:#333; }
+
+.container { width: 960px; margin: 0 auto; overflow: auto; }
+
+header {
+    background-color: #333;
+    color: #eee;
+    margin-bottom: 12px;
+    padding: 18px;
+    text-align: center;
+}
+
+img#bio-image { float: left; margin-right: 18px; width: 200px; }
+
+section { padding: 18px; }
+
+section#main-bio {
+    float: left;
+    position:relative;
+    width: 60%;
+    margin-right: 28px;
+}
+
+section#content-info {
+    float: left; 
+}
+
+ul { list-style-position: inside;}
